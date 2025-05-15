@@ -15,10 +15,6 @@ A simple CRUD web application for managing contacts and their emails.
 - HTML5 & CSS3
 - Git & GitHub
 
-## 📸 Preview
-
-![screenshot](screenshot.png) <!-- Replace with actual image later -->
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
