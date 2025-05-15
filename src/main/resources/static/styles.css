@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerOne {
+    font-size: 40px;
+    min-height: 30vh;
+    width: 100%;
+    background: linear-gradient(to right, #001f3f, #7FFFD4); 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    color: white;            
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+}
+
+.bodyOne {
+    margin: 5vh 0 0 15%;
+}
+
+.form-buttons,
+.button-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+button,
+.metal-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(145deg, #5a7dab, #2e3f55);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover,
+.metal-button:hover {
+    background: linear-gradient(145deg, #6a9bd8, #3b5d85);
+    transform: translateY(-1px);
+}
+
+.table-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    max-height: 50vh;      /* maximálna výška tabuľky */
+    overflow-y: auto;      /* povolenie vertikálneho scrollovania */
+    margin-bottom: 5vh;    /* odstup od footeru */
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.col-header {
+    width: 35vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.footer {
+    margin-top: auto;
+    min-height: 20vh;
+    width: 100%;
+    background: linear-gradient(to right, #001f3f, #7FFFD4); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
