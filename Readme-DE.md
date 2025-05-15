@@ -21,9 +21,6 @@ Eine einfache Webanwendung zum Erstellen, Bearbeiten und Löschen von Kontakten 
 - HTML5 & CSS3
 - Git & GitHub
 
-## 📸 Vorschau
-
-![screenshot](screenshot.png)
 
 ## ⚙️ Lokale Ausführung
 
